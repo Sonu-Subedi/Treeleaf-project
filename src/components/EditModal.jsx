@@ -14,24 +14,7 @@ const EditModal = ({ values, onSave, onCancel }) => {
     onSave(editedValues);
   };
 
-  return (
-    <div className="modal">
-      <div className="modal-content">
-        <h3>Edit Record</h3>
-        <label>
-          Name:
-          <input
-            type="text"
-            name="name"
-            value={editedValues.name}
-            onChange={handleInputChange}
-          />
-        </label>
-        <button onClick={handleSave}>Save</button>
-        <button onClick={onCancel}>Cancel</button>
-      </div>
-    </div>
-  );
+  return <div className="modal"></div>;
 };
 
 export default EditModal;
