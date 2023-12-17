@@ -3,7 +3,7 @@ import "../styles/Table.css";
 const RecordTable = ({ records, onDelete, onEdit }) => {
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>Records Table</h2>
+      <h2 style={{ textAlign: "center" }}>Records</h2>
       <table className="record-table">
         <thead>
           <tr>
