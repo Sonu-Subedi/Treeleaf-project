@@ -1,4 +1,3 @@
-// EditModal.jsx
 import React, { useState } from "react";
 
 const EditModal = ({ values, onSave, onCancel }) => {
@@ -28,7 +27,6 @@ const EditModal = ({ values, onSave, onCancel }) => {
             onChange={handleInputChange}
           />
         </label>
-        {/* Add similar label and input elements for other fields */}
         <button onClick={handleSave}>Save</button>
         <button onClick={onCancel}>Cancel</button>
       </div>
