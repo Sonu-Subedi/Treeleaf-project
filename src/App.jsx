@@ -46,6 +46,7 @@ const App = () => {
       placeholder: "Phone Number",
       label: "Phone Number",
       errorMessage: "Phone number must be only number and at least 7 digits",
+      required: true,
       pattern: "[0-9]{7,10}",
     },
     {
